@@ -1,4 +1,4 @@
-package com.covidcontadorapp.newarchitecture;
+package com.covidcont.app.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.covidcontadorapp.BuildConfig;
-import com.covidcontadorapp.newarchitecture.components.MainComponentsRegistry;
-import com.covidcontadorapp.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.covidcont.app.BuildConfig;
+import com.covidcont.app.newarchitecture.components.MainComponentsRegistry;
+import com.covidcont.app.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

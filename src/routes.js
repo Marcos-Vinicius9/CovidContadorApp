@@ -43,6 +43,7 @@ function routes (){
                      <Stack.Screen name="Sobre" component={ScreenAbout} options={{
                     headerShown:false,
                     }}/>
+                    <Stack.Screen name="Contato" component={Contato} options={{headerShown:false}} />
             </Stack.Navigator>
         </NavigationContainer>
     );

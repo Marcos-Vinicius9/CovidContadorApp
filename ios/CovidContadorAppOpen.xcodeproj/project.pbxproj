@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* CovidContadorAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CovidContadorAppTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-CovidContadorApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-CovidContadorApp.a */; };
+		00E356F31AD99517003FC87E /* CovidContadorAppOpenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CovidContadorAppOpenTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-CovidContadorAppOpen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-CovidContadorAppOpen.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-CovidContadorApp-CovidContadorAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-CovidContadorApp-CovidContadorAppTests.a */; };
+		7699B88040F8A987B510C191 /* libPods-CovidContadorAppOpen-CovidContadorAppOpenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-CovidContadorAppOpen-CovidContadorAppOpenTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		180CD515A3E6479C841613BD /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28F2D0815FE045FC9474B313 /* Poppins-Bold.ttf */; };
 		C2E92F848A90448790DE34B2 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15AE5B14C7124BF8AB4DC7C5 /* Poppins-Regular.ttf */; };
@@ -40,27 +40,27 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = CovidContadorApp;
+			remoteInfo = CovidContadorAppOpen;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* CovidContadorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CovidContadorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* CovidContadorAppOpenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CovidContadorAppOpenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* CovidContadorAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CovidContadorAppTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* CovidContadorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidContadorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CovidContadorApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = CovidContadorApp/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CovidContadorApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CovidContadorApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CovidContadorApp/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-CovidContadorApp-CovidContadorAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CovidContadorApp-CovidContadorAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-CovidContadorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidContadorApp.debug.xcconfig"; path = "Target Support Files/Pods-CovidContadorApp/Pods-CovidContadorApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-CovidContadorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidContadorApp.release.xcconfig"; path = "Target Support Files/Pods-CovidContadorApp/Pods-CovidContadorApp.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-CovidContadorApp-CovidContadorAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidContadorApp-CovidContadorAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CovidContadorApp-CovidContadorAppTests/Pods-CovidContadorApp-CovidContadorAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-CovidContadorApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CovidContadorApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CovidContadorApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-CovidContadorApp-CovidContadorAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidContadorApp-CovidContadorAppTests.release.xcconfig"; path = "Target Support Files/Pods-CovidContadorApp-CovidContadorAppTests/Pods-CovidContadorApp-CovidContadorAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CovidContadorAppOpenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CovidContadorAppOpenTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* CovidContadorAppOpen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidContadorAppOpen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CovidContadorAppOpen/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = CovidContadorAppOpen/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CovidContadorAppOpen/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CovidContadorAppOpen/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CovidContadorAppOpen/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-CovidContadorAppOpen-CovidContadorAppOpenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CovidContadorAppOpen-CovidContadorAppOpenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-CovidContadorAppOpen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidContadorAppOpen.debug.xcconfig"; path = "Target Support Files/Pods-CovidContadorAppOpen/Pods-CovidContadorAppOpen.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-CovidContadorAppOpen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidContadorAppOpen.release.xcconfig"; path = "Target Support Files/Pods-CovidContadorAppOpen/Pods-CovidContadorAppOpen.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-CovidContadorAppOpen-CovidContadorAppOpenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidContadorAppOpen-CovidContadorAppOpenTests.debug.xcconfig"; path = "Target Support Files/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-CovidContadorAppOpen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CovidContadorAppOpen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CovidContadorAppOpen/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-CovidContadorAppOpen-CovidContadorAppOpenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidContadorAppOpen-CovidContadorAppOpenTests.release.xcconfig"; path = "Target Support Files/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		28F2D0815FE045FC9474B313 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		15AE5B14C7124BF8AB4DC7C5 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
@@ -87,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-CovidContadorApp-CovidContadorAppTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-CovidContadorAppOpen-CovidContadorAppOpenTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,20 +95,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-CovidContadorApp.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-CovidContadorAppOpen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* CovidContadorAppTests */ = {
+		00E356EF1AD99517003FC87E /* CovidContadorAppOpenTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* CovidContadorAppTests.m */,
+				00E356F21AD99517003FC87E /* CovidContadorAppOpenTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = CovidContadorAppTests;
+			path = CovidContadorAppOpenTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -119,7 +119,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* CovidContadorApp */ = {
+		13B07FAE1A68108700A75B9A /* CovidContadorAppOpen */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -129,15 +129,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = CovidContadorApp;
+			name = CovidContadorAppOpen;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-CovidContadorApp.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-CovidContadorApp-CovidContadorAppTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-CovidContadorAppOpen.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-CovidContadorAppOpen-CovidContadorAppOpenTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* CovidContadorApp */,
+				13B07FAE1A68108700A75B9A /* CovidContadorAppOpen */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* CovidContadorAppTests */,
+				00E356EF1AD99517003FC87E /* CovidContadorAppOpenTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -168,8 +168,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* CovidContadorApp.app */,
-				00E356EE1AD99517003FC87E /* CovidContadorAppTests.xctest */,
+				13B07F961A680F5B00A75B9A /* CovidContadorAppOpen.app */,
+				00E356EE1AD99517003FC87E /* CovidContadorAppOpenTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,10 +177,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-CovidContadorApp.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-CovidContadorApp.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-CovidContadorApp-CovidContadorAppTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-CovidContadorApp-CovidContadorAppTests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-CovidContadorAppOpen.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-CovidContadorAppOpen.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-CovidContadorAppOpen-CovidContadorAppOpenTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-CovidContadorAppOpen-CovidContadorAppOpenTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -214,9 +214,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* CovidContadorAppTests */ = {
+		00E356ED1AD99517003FC87E /* CovidContadorAppOpenTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CovidContadorAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CovidContadorAppOpenTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -230,14 +230,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = CovidContadorAppTests;
-			productName = CovidContadorAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* CovidContadorAppTests.xctest */;
+			name = CovidContadorAppOpenTests;
+			productName = CovidContadorAppOpenTests;
+			productReference = 00E356EE1AD99517003FC87E /* CovidContadorAppOpenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* CovidContadorApp */ = {
+		13B07F861A680F5B00A75B9A /* CovidContadorAppOpen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CovidContadorApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CovidContadorAppOpen" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -252,9 +252,9 @@
 			);
 			dependencies = (
 			);
-			name = CovidContadorApp;
-			productName = CovidContadorApp;
-			productReference = 13B07F961A680F5B00A75B9A /* CovidContadorApp.app */;
+			name = CovidContadorAppOpen;
+			productName = CovidContadorAppOpen;
+			productReference = 13B07F961A680F5B00A75B9A /* CovidContadorAppOpen.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -274,7 +274,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CovidContadorApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CovidContadorAppOpen" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -287,8 +287,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* CovidContadorApp */,
-				00E356ED1AD99517003FC87E /* CovidContadorAppTests */,
+				13B07F861A680F5B00A75B9A /* CovidContadorAppOpen */,
+				00E356ED1AD99517003FC87E /* CovidContadorAppOpenTests */,
 			);
 		};
 /* End PBXProject section */
@@ -351,15 +351,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorApp/Pods-CovidContadorApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorAppOpen/Pods-CovidContadorAppOpen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorApp/Pods-CovidContadorApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorAppOpen/Pods-CovidContadorAppOpen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidContadorApp/Pods-CovidContadorApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidContadorAppOpen/Pods-CovidContadorAppOpen-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -377,7 +377,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CovidContadorApp-CovidContadorAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -399,7 +399,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CovidContadorApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CovidContadorAppOpen-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -412,15 +412,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorApp-CovidContadorAppTests/Pods-CovidContadorApp-CovidContadorAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorApp-CovidContadorAppTests/Pods-CovidContadorApp-CovidContadorAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidContadorApp-CovidContadorAppTests/Pods-CovidContadorApp-CovidContadorAppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -429,15 +429,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorApp/Pods-CovidContadorApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorAppOpen/Pods-CovidContadorAppOpen-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorApp/Pods-CovidContadorApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorAppOpen/Pods-CovidContadorAppOpen-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidContadorApp/Pods-CovidContadorApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidContadorAppOpen/Pods-CovidContadorAppOpen-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -446,15 +446,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorApp-CovidContadorAppTests/Pods-CovidContadorApp-CovidContadorAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorApp-CovidContadorAppTests/Pods-CovidContadorApp-CovidContadorAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidContadorApp-CovidContadorAppTests/Pods-CovidContadorApp-CovidContadorAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests/Pods-CovidContadorAppOpen-CovidContadorAppOpenTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -483,7 +483,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* CovidContadorAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* CovidContadorAppOpenTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,7 +501,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* CovidContadorApp */;
+			target = 13B07F861A680F5B00A75B9A /* CovidContadorAppOpen */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -509,14 +509,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-CovidContadorApp-CovidContadorAppTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-CovidContadorAppOpen-CovidContadorAppOpenTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CovidContadorAppTests/Info.plist;
+				INFOPLIST_FILE = CovidContadorAppOpenTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -530,17 +530,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CovidContadorApp.app/CovidContadorApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CovidContadorAppOpen.app/CovidContadorAppOpen";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-CovidContadorApp-CovidContadorAppTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-CovidContadorAppOpen-CovidContadorAppOpenTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = CovidContadorAppTests/Info.plist;
+				INFOPLIST_FILE = CovidContadorAppOpenTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -554,19 +554,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CovidContadorApp.app/CovidContadorApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CovidContadorAppOpen.app/CovidContadorAppOpen";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-CovidContadorApp.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-CovidContadorAppOpen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = CovidContadorApp/Info.plist;
+				INFOPLIST_FILE = CovidContadorAppOpen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -577,7 +577,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = CovidContadorApp;
+				PRODUCT_NAME = CovidContadorAppOpen;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -586,12 +586,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-CovidContadorApp.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-CovidContadorAppOpen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = CovidContadorApp/Info.plist;
+				INFOPLIST_FILE = CovidContadorAppOpen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,7 +602,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = CovidContadorApp;
+				PRODUCT_NAME = CovidContadorAppOpen;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -746,7 +746,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CovidContadorAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CovidContadorAppOpenTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -755,7 +755,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CovidContadorApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CovidContadorAppOpen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -764,7 +764,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CovidContadorApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CovidContadorAppOpen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

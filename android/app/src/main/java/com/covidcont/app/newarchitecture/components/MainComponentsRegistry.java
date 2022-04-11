@@ -1,4 +1,4 @@
-package com.covidcontadorapp.newarchitecture.components;
+package com.covidcont.app.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

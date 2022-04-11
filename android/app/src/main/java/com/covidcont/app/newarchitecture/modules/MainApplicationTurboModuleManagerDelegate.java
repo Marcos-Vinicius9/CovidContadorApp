@@ -1,4 +1,4 @@
-package com.covidcontadorapp.newarchitecture.modules;
+package com.covidcont.app.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;
