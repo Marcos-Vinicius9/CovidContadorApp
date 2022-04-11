@@ -10,18 +10,26 @@ const styles = StyleSheet.create({
         width: metrics.screenWidth,
         height: metrics.screenHeight,
         alignItems:'center',
-        backgroundColor:colors.backgroundColor
+        backgroundColor: 'white'
     },
     title:{
         fontFamily:'Poppins-Bold',
-        color:'white',
        
     },
     textContent:{
         width: metrics.screenWidth * 0.90,
-        paddingVertical:10,
-        color:'white',
+        paddingVertical:15
+        
     },
+    image:{
+        resizeMode:'contain',
+        width: metrics.screenWidth * 0.90,
+        height: metrics.screenHeight * 0.30
+    },
+    link:{
+        fontFamily:'Poppins-Bold'
+    },
+
 });
 
 export default styles;
