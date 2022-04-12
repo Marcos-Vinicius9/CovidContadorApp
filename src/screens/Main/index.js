@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import {View, Text, TouchableOpacity, Image, ScrollView, SafeAreaView, Linking} from "react-native";
+import {View, Text, TouchableOpacity, Image, ScrollView, SafeAreaView, Linking, StatusBar} from "react-native";
 
 
 import mask from "../../assets/images/mask.jpg";
@@ -24,6 +24,7 @@ function Main({navigation}){
     return(
         <SafeAreaView>
             <ScrollView>
+            <StatusBar barStyle="light-content" backgroundColor={"#68E4FF"} />
             <View style={styles.container}>
             <Text style={styles.title}>COVID 19</Text>
             <View style={styles.boxContainer}>
@@ -48,10 +49,7 @@ function Main({navigation}){
                 </View>
             </View>
             <Text> Atualizado em: <Text>{casos?.data.updated_at}</Text></Text>
-            <TouchableOpacity onPress={() => Linking.openURL('https://br.freepik.com/fotos-vetores-gratis/familia')} >
-                <Image style={styles.image} source={mask} />
-            </TouchableOpacity>
-
+            <Image style={styles.image} source={mask} />
             <View><Text>Desenvolvido por Marcos Vinicius</Text></View>
         </View>
         

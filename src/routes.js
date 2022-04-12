@@ -5,8 +5,8 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-import Main from './screens//Main/main';
-import Contato from "./screens//Contato/contacts";
+import Main from './screens/Main';
+
 import ScreenAbout from "./screens/ScreenAbout";
 
 import colors from "./styles/colors";
@@ -24,8 +24,6 @@ function routes (){
       
                   if (route.name === 'Sobre') {
                     iconName = focused ? 'information-circle' : 'information-circle-outline';
-                  } else if (route.name === 'Contato') {
-                    iconName = focused ? 'mail' : 'mail';
                   }else if(route.name === 'Contador'){
                     iconName = focused ? 'medkit' : 'medkit';
                   }
@@ -43,7 +41,7 @@ function routes (){
                      <Stack.Screen name="Sobre" component={ScreenAbout} options={{
                     headerShown:false,
                     }}/>
-                    <Stack.Screen name="Contato" component={Contato} options={{headerShown:false}} />
+                   
             </Stack.Navigator>
         </NavigationContainer>
     );

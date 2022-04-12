@@ -1,24 +1,33 @@
 import React from "react";
-import {View, Text, Linking, Image} from 'react-native';
+import {View, Text, Linking, Image, ScrollView, StatusBar} from 'react-native';
 import styles from "./styles";
 
 import info from '../../assets/images/info.png';
-
+import infoApp from '../../assets/images/infoApp.png';
 function ScreenAbout({navigation}){
     return(
-        <View style={styles.container}>
+       <ScrollView>
+           <StatusBar barStyle="dark-content" backgroundColor={"#FFFFFF"} />
+            <View style={styles.container}>
             <Text style={styles.title}>SOBRE</Text>
             <Text style={styles.textContent}>
-                O aplicativo CovidContador foi criado com o intuito de informar os usuarios sobre as ocorrencias de covid 19 no Brasil.
+                O aplicativo Covid Contador foi criado com o intuito de informar os usuários sobre as ocorrências de covid 19 no Brasil, além de trazer dicas sobre prevenção e cuidados com o vírus.
             </Text>
             <Image source ={info} style={styles.image} />
+            <View style={styles.info}>
+                <Text style={styles.textInfo}>Informações técnicas</Text>
+                <Text style={styles.textInfo}>Versão: <Text style={{fontFamily:'Poppins-Bold'}}>1.1.2</Text></Text>
+                <Text style={styles.textInfo} onPress={() => {Linking.openURL('https://projetocovidcontador.marcos-vinicius9.repl.co')}}>Versão Web</Text>
+                <Text style={styles.textInfo} onPress={() => Linking.openURL('https://github.com/devarthurribeiro/covid19-brazil-api')}>Software de terceiros</Text>
+                <Text style={styles.textInfo} onPress={() => Linking.openURL('https://br.freepik.com')}>Credito das imagens (freepik)</Text>
+            </View>
+            <Image source ={infoApp} style={styles.image} />
             <Text style={styles.textContent}>
-                Saiba mais sobre o projeto e seu codigo fonte em: <Text style={styles.link} onPress={() => Linking.openURL('https://github.com/Marcos-Vinicius9/CovidContadorApp')}>Github Do Projeto.</Text>
+                Saiba mais sobre o projeto e seu código fonte em: <Text style={styles.link} onPress={() => Linking.openURL('https://github.com/Marcos-Vinicius9/CovidContadorApp')}>Github Do Projeto.</Text>
             </Text>
-            <Text style={styles.textContent}>
-               Creditos ao criador da api utilizada para obter informações sobre os casos: <Text style={styles.link} onPress={() => Linking.openURL('https://covid19-brazil-api.vercel.app')}>Link da api</Text>.
-            </Text>
+            
         </View>
+       </ScrollView>
     );
 }
 

@@ -13,12 +13,12 @@ const styles = StyleSheet.create({
     },
     title:{
         fontFamily:'Poppins-Bold',
-        color:'#FFF',
+        color: colors.colorSecondary,
         paddingVertical:10
     },
     titleBox:{
         fontWeight:'bold',
-        color:'white',
+        color:colors.colorSecondary,
         fontSize:fonts.input
     },
     boxContainer:{
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
         height: metrics.screenHeight * 0.40
     },
     info:{
-        color:'white',
+        color:colors.colorSecondary,
     },
     dead:{
         backgroundColor:'#FF0000'

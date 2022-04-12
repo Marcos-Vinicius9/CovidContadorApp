@@ -8,17 +8,19 @@ const styles = StyleSheet.create({
     container:{
         backgroundColor: 'white',
         width: metrics.screenWidth,
-        height: metrics.screenHeight,
         alignItems:'center',
-        backgroundColor: 'white'
     },
     title:{
         fontFamily:'Poppins-Bold',
+        color:'black',
+        paddingVertical:10
        
     },
     textContent:{
+        color:'black',
         width: metrics.screenWidth * 0.90,
-        paddingVertical:15
+        paddingVertical:10,
+        textAlign:'left',
         
     },
     image:{
@@ -28,6 +30,13 @@ const styles = StyleSheet.create({
     },
     link:{
         fontFamily:'Poppins-Bold'
+    },
+    info:{
+        width: metrics.screenWidth * 0.90,
+
+    },
+    textInfo:{
+        color:'black'
     },
 
 });
