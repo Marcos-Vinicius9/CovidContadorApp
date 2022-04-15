@@ -1,9 +1,11 @@
 import React from "react";
 import {View, Text, Linking, Image, ScrollView, StatusBar} from 'react-native';
 import styles from "./styles";
-
 import info from '../../assets/images/info.png';
 import infoApp from '../../assets/images/infoApp.png';
+
+let versionApp = "1.1.5";
+
 function ScreenAbout({navigation}){
     return(
        <ScrollView>
@@ -16,7 +18,7 @@ function ScreenAbout({navigation}){
             <Image source ={info} style={styles.image} />
             <View style={styles.info}>
                 <Text style={styles.textInfo}>Informações técnicas</Text>
-                <Text style={styles.textInfo}>Versão: <Text style={{fontFamily:'Poppins-Bold'}}>1.1.2</Text></Text>
+                <Text style={styles.textInfo}>Versão: <Text style={{fontFamily:'Poppins-Bold'}}>{versionApp}</Text></Text>
                 <Text style={styles.textInfo} onPress={() => {Linking.openURL('https://projetocovidcontador.marcos-vinicius9.repl.co')}}>Versão Web</Text>
                 <Text style={styles.textInfo} onPress={() => Linking.openURL('https://github.com/devarthurribeiro/covid19-brazil-api')}>Software de terceiros</Text>
                 <Text style={styles.textInfo} onPress={() => Linking.openURL('https://br.freepik.com')}>Credito das imagens (freepik)</Text>

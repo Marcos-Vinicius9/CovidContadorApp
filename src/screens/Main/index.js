@@ -33,16 +33,6 @@ function Main({navigation}){
                     <Text style={styles.info}>{casos?.data.deaths}</Text>
                 </View>
 
-                <View style={[styles.recovery, styles.box]}>
-                    <Text style={styles.titleBox}>RECUPERADOS</Text>
-                    <Text style={styles.info}>Não divulgado</Text>
-                </View>
-
-                <View style={[styles.active, styles.box]}>
-                    <Text style={styles.titleBox}>ATIVOS</Text>
-                    <Text style={styles.info}>Não divulgado</Text>
-                </View>
-
                 <View style={[styles.confirmed, styles.box]}>
                     <Text style={styles.titleBox}>CONFIRMADOS</Text>
                     <Text style={styles.info}>{casos?.data.confirmed}</Text>

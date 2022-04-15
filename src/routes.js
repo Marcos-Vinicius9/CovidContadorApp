@@ -9,6 +9,9 @@ import Main from './screens/Main';
 
 import ScreenAbout from "./screens/ScreenAbout";
 
+import Prevencao from "./screens/prevencao";
+
+
 import colors from "./styles/colors";
 
 function routes (){
@@ -25,9 +28,10 @@ function routes (){
                   if (route.name === 'Sobre') {
                     iconName = focused ? 'information-circle' : 'information-circle-outline';
                   }else if(route.name === 'Contador'){
-                    iconName = focused ? 'medkit' : 'medkit';
+                    iconName = focused ? 'eye' : 'eye';
+                  }else if(route.name === 'Prevencao'){
+                    iconName = focused ? 'medkit' : 'medkit'
                   }
-      
                   
                   return <Ionicons name={iconName} size={size} color={color} />;
                 },
@@ -36,11 +40,12 @@ function routes (){
               })}
             >
                 <Stack.Screen name="Contador" component={Main} options={{
-                    headerShown:false,
-                    }}/>
-                     <Stack.Screen name="Sobre" component={ScreenAbout} options={{
-                    headerShown:false,
-                    }}/>
+                  headerShown:false,
+                }}/>
+                  <Stack.Screen name="Prevencao" component={Prevencao} options={{headerShown:false}} />
+                <Stack.Screen name="Sobre" component={ScreenAbout} options={{
+                  headerShown:false,
+                  }}/>
                    
             </Stack.Navigator>
         </NavigationContainer>

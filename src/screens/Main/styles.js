@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
         width: metrics.screenWidth,
         justifyContent:'space-between',
         alignItems:'center',
+        height: metrics.screenHeight
     },
     title:{
         fontFamily:'Poppins-Bold',
@@ -56,7 +57,7 @@ const styles = StyleSheet.create({
         backgroundColor:'#FFD700'
     },
     confirmed:{
-        backgroundColor:'#55AFD2'
+        backgroundColor:'#005C1F'
     },
 })
 
