@@ -22,6 +22,7 @@ function ScreenAbout({navigation}){
                 <Text style={styles.textInfo} onPress={() => {Linking.openURL('https://projetocovidcontador.marcos-vinicius9.repl.co')}}>Versão Web</Text>
                 <Text style={styles.textInfo} onPress={() => Linking.openURL('https://github.com/devarthurribeiro/covid19-brazil-api')}>Software de terceiros</Text>
                 <Text style={styles.textInfo} onPress={() => Linking.openURL('https://br.freepik.com')}>Credito das imagens (freepik)</Text>
+                <Text style={styles.textInfo}>Todos os videos indexados na página prevenção fazem referência aos seus devidos autores ao serem reproduzidos.</Text>
             </View>
             <Image source ={infoApp} style={styles.image} />
             <Text style={styles.textContent}>

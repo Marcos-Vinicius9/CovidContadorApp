@@ -17,14 +17,15 @@ const styles = StyleSheet.create({
        
     },
     modalView:{
-        height: metrics.screenHeight,
-        width: metrics.screenWidth,
+        flex:1,
         justifyContent:'center',
-        alignItems:'center'
+        alignItems:"center",
     },
     modalBox:{
         width: metrics.screenWidth,
-        height:metrics.screenHeight * 0.50,
+        height:415,
+        elevation:metrics.baseElevation,
+
     },
     cardView:{
         flexDirection:'row',
@@ -38,7 +39,9 @@ const styles = StyleSheet.create({
         borderRadius: 4,
         backgroundColor: 'black',
         width: 120,
+        height:40,
         padding:10,
+        marginVertical:35
       },
       text: {
         fontWeight: 'bold',

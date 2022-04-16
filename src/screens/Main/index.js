@@ -5,7 +5,7 @@ import {View, Text, TouchableOpacity, Image, ScrollView, SafeAreaView, Linking, 
 import mask from "../../assets/images/mask.jpg";
 import styles from "./styles";
 
-import api from "../../api";
+import api from "../../apiCasos";
 
 
 function Main({navigation}){
