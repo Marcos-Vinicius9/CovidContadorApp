@@ -4,7 +4,7 @@ import styles from "./styles";
 import info from '../../assets/images/info.png';
 import infoApp from '../../assets/images/infoApp.png';
 
-let versionApp = "1.1.5";
+let versionApp = "1.1.7";
 
 function ScreenAbout({navigation}){
     return(

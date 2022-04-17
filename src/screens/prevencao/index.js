@@ -12,14 +12,20 @@ import CardBox from "../../components/cardBox";
 
 function Prevencao (){
 
-    const[videosApi,setVideosApi] = useState(['carregando dados']);
+    const[videosApi,setVideosApi] = useState([{
+        title: 'CARREGANDO'
+    }]);
 
     useEffect(() => {
         api
           .get('dados')
           .then((response) =>setVideosApi(response.data))
           .catch((err) => {
-            console.error("ops! ocorreu um erro" + err);
+            Alert.alert(
+                'API em manutenção',
+                'A API responsável pela exibição dos vídeos está passando por uma manutenção/atualização e voltará em breve!'
+            )
+            setVideosApi([{title:'API em manutenção.'}])
           });
       }, []);
 
